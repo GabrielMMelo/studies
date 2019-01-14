@@ -2,9 +2,9 @@
 
 ## Como testes de unidade se diferem dos testes funcionais?
 
-A principal diferença é que teste funcionais testam o sistema por uma perspectiva externa, quando os testes unitário o faz baseado no ponto de vista do programador
+A principal diferença é que um teste funcional testa o sistema por uma perspectiva externa, quando um teste unitário o faz baseado no ponto de vista do programador.
 
-Os **testes funcionais** tem a finalidade de manter a aplicação com funcionalidades corretas, de acordo com as regras de negócio, e garantir que não ocorrerão falhas acidentais.
+Os **testes funcionais** têm a finalidade de manter a aplicação com funcionalidades corretas, de acordo com as regras de negócio, e garantir que não ocorrerão falhas acidentais.
 
 Os **testes unitários** garantem que o código-fonte escrito seja limpo e livre de bugs.
 
@@ -12,13 +12,13 @@ Os **testes unitários** garantem que o código-fonte escrito seja limpo e livre
 
 1 - Escrita de um teste funcional, descrevendo uma nova funcionalidade do **ponto de vista do usuário**;
 
-2 - Escrita de um (ou mais) teste unitário com o objetivo de fazer o teste funcional passar. A ideia é que cada linha do código de produção passe por, pelo menos, um teste unitário.
+2 - Escrita de um (ou mais) teste(s) unitário(s) com o objetivo de fazer o teste funcional passar. A ideia é que cada linha do código de produção passe por, pelo menos, um teste unitário.
 
 3 - Após a falha nos testes unitários, é realizada a escrita, na menor quantidade possível, um código de aplicação suficiente para que os façam passar. 
 
 > É cabível iterar sobre os passos _2_ e _3_ algumas vezes de forma a obter um teste funcional com mais avanço.
 
-4 - Execução do teste funcional e escrita dos próximos.
+4 - Execução do teste funcional (que, agora, passa) e escrita dos próximos.
 
 ## Testes unitários com Django
 

@@ -35,10 +35,11 @@ Imagine que seu chefe do escritório de advocacia (*sim, você
 difíceis e com cláusulas que fazem referência à varias outras e tudo isso para
 amanhã! Dificilmente você, ou qualquer outra pessoa, lerá todo o conteúdo 
 solicitado e, mesmo que o faça, não conseguirá garantir que tudo foi checado
-corretamente. Essa angústia se aplica também para `code reviews`. Porções de 
-código menores são *mais légiveis* e representam um *overhead consideravelmente
+corretamente. Essa angústia se aplica também para `code reviews`.
+
+Porções de código menores são *mais légiveis* e representam um *overhead consideravelmente
 menor* no fluxo de desenvolvimento. Portanto, **prefira PR enxutos em detrimento
-de grandes pacotes de códigos**.
+de grandes pacotes de código**.
 
 
 ## Testando PRs
@@ -63,3 +64,6 @@ alterações sugeridas.
 - Requisitar alterações. Envia o feedback que deve ser corrigido antes que o 
 `merge` seja permitido
 
+## Referências
+- https://www.youtube.com/watch?v=vCwuZfK0VG4 (Pull Requests, Code Review, and the GitHub Flow)
+- https://2018.djangocon.us/talk/code-review-skills-for-pythonistas/ (Code Review Skills for Pythonistas)

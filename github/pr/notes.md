@@ -41,6 +41,15 @@ Porções de código menores são *mais légiveis* e representam um *overhead co
 menor* no fluxo de desenvolvimento. Portanto, **prefira PR enxutos em detrimento
 de grandes pacotes de código**.
 
+Algumas praticidades podem ser aplicadas:
+
+- Template para Pull Request: Uma boa prática que padroniza e facilita a 
+comunicação é a inclusão de templates para PR (e issues também). Para saber 
+como criá-los, acesse: https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/
+
+- Fechamento de issues através de mensagem de PR: adicionando o código da issue
+com uma das palavras reservadas do github, é possível fechar uma issue 
+automaticamente quando uma PR for concluída (e.g. Closes #25)
 
 ## Testando PRs
 

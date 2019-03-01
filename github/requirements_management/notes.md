@@ -49,13 +49,13 @@ cancelados e rejeitados.
 
 A criação consiste em **7 passos**:
 
-##1 Decida o o título da issue.
+## 1 Decida o o título da issue.
 
 Deverá ser incluída uma referência diferente
 para requisitos e _tasks_ (e.g "R1.1" para um subrequisito e "T2" para uma 
 _task_)
 
-##2 Definição da descrição da Issue.
+## 2 Definição da descrição da Issue.
 
 Muita informação pode desviar a atenção 
 do ponto principal, porém informações insuficientes estigam o leitor a adivinhar
@@ -77,7 +77,7 @@ referências (link para issue). Um problema identificado é que não é possíve
 estabelecer hierarquias entre issues, então a ligação é feita por links 
 absolutos e _labels_.
 
-##3 Adicione as _labels_.
+## 3 Adicione as _labels_.
 
 As _labels_ deverão ser divididas em 3 categorias, com
 cores distintas entre si:
@@ -88,12 +88,12 @@ cores distintas entre si:
 
 - _Miscellaneous_: outras informações interessantes para serem filtradas.
 
-##4 Atribuição de responsável(is)
+## 4 Atribuição de responsável(is)
 
-##5 Atribua um _Milestone_.
+## 5 Atribua um _Milestone_.
 
-##6 Publique a issue.
+## 6 Publique a issue.
 
-##7 Atualize as referências de outras issues. Por exemplo, se a issue criada 
+## 7 Atualize as referências de outras issues. Por exemplo, se a issue criada 
 é filha de outra issue, então esta última deve ser atualizada com a referencia
 para a nova.

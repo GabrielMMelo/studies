@@ -3,10 +3,10 @@
 Este resumo foi baseado no artigo "Requirements management in GitHub with a 
 lean approach", disponível em  "https://pdfs.semanticscholar.org/6798/d5be638f26dcba07f5c23ea1a075c9557300.pdf"
 que apresenta um _guideline_ sobre aplicação de gerenciamento de requisitos
-por uma abordagem _lean_.
+por uma abordagem _lean_ utilizando o GitHub.
 
 Todo o disposto aqui segue a _guideline_ proposta e apresenta seu workflow,
-pontos positivos e negativos.
+aspectos positivos e negativos.
 
 # Issues, tasks e requisitos para a _guideline_
 As **issues** consistem em um conceito de alto nível, podendo representar um 
@@ -21,7 +21,7 @@ para o software. Os requisitos são mais abstratos, quando comparados às _tasks
 Ambos podem ser divididos em **principal** e **subnível**.
 
 - Subnível: Usado quando um requisito ou tarefa é demasiado grande, fazendo
-que haja sentido para fragmentá-lo em subcomponentes.
+que haja sentido fragmentá-lo em subcomponentes.
 
 É adotado um máximo de 4 níveis de profundidade de uma issue: requisito ->
 subrequisito -> task -> subtask
@@ -49,11 +49,15 @@ cancelados e rejeitados.
 
 A criação consiste em **7 passos**:
 
-1. Decida o o título da issue. Deverá ser incluída uma referência diferente
+##1 Decida o o título da issue.
+
+Deverá ser incluída uma referência diferente
 para requisitos e _tasks_ (e.g "R1.1" para um subrequisito e "T2" para uma 
 _task_)
 
-2. Definição da descrição da Issue: Muita informação pode desviar a atenção 
+##2 Definição da descrição da Issue.
+
+Muita informação pode desviar a atenção 
 do ponto principal, porém informações insuficientes estigam o leitor a adivinhar
 algo e errar - _quase sempre_. Uma boa estratégia é anexar documentos, links e
 imagens que possam auxiliar na compreensão de _tasks_ e utilizar a **Wiki** do
@@ -73,7 +77,9 @@ referências (link para issue). Um problema identificado é que não é possíve
 estabelecer hierarquias entre issues, então a ligação é feita por links 
 absolutos e _labels_.
 
-3. Adicione as _labels_. As _labels_ deverão ser divididas em 3 categorias, com
+##3 Adicione as _labels_.
+
+As _labels_ deverão ser divididas em 3 categorias, com
 cores distintas entre si:
 
 - Tipo da issue (Requisito, subrequisito, _task_, subtask);
@@ -82,14 +88,12 @@ cores distintas entre si:
 
 - _Miscellaneous_: outras informações interessantes para serem filtradas.
 
-4. Atribuição de responsável(is)
+##4 Atribuição de responsável(is)
 
-5. Atribua um _Milestone_.
+##5 Atribua um _Milestone_.
 
-6. Publique a issue.
+##6 Publique a issue.
 
-7. Atualize as referências de outras issues. Por exemplo, se a issue criada 
+##7 Atualize as referências de outras issues. Por exemplo, se a issue criada 
 é filha de outra issue, então esta última deve ser atualizada com a referencia
 para a nova.
-
-

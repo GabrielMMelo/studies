@@ -94,6 +94,7 @@ cores distintas entre si:
 
 ## 6 Publique a issue.
 
-## 7 Atualize as referências de outras issues. Por exemplo, se a issue criada 
+## 7 Atualize as referências de outras issues.
+Por exemplo, se a issue criada 
 é filha de outra issue, então esta última deve ser atualizada com a referencia
 para a nova.

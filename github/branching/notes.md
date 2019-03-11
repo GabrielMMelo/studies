@@ -66,7 +66,7 @@ Para isso, utilizamos um `rebase` interativo.
 #### 2.1.2 Rebase interativo
 Este comando permite a limpeza de commits (junção de commits) de forma interativa.
 
-Para executá-lo, para ter em mente uma quantidade de commits passados desejados a serem avaliados. 
+Para executá-lo, para ter em mãos uma hash de commit ou uma quantidade de commits passados desejados a serem avaliados. 
 Por exemplo, se você deseja revisar os 6 último commits:
 
 ```
@@ -87,6 +87,7 @@ pick 19kk21a Correções do review
 Existem 3 comandos para nos ajudar a escolher o que/como manter:
 
 - `pick`: usado para manter um commit, da maneira que está atualmente;
+- `reword`: usado para manter um commit, alterando a mensagem do mesmo;
 - `squash`: usado para dar um `amend` (juntar o commit com o próximo), perguntando pelo nome do novo commit;
 - `fixup`: usado para dar um `amend`, sem perguntar pelo nome do novo commit.
 
